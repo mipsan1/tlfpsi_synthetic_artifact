@@ -1,17 +1,33 @@
 name: Run artifact
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
-  test:
+  run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install matplotlib numpy
 
       - name: Show files
         run: ls -la
 
-      - name: Test message
-        run: echo "GitHub Actions is working"
+      - name: Run simulator
+        run: python simulator.py
+
+      - name: Make Fig1
+        run: python make_fig1.py
+
+      - name: Make Fig2
+        run: python make_fig2.py
