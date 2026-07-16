@@ -1,0 +1,101 @@
+{
+  "schema_version": "tlfpsi-synthetic-eval-v1",
+  "config": {
+    "n_corpus": 800,
+    "m_bench": 240,
+    "s_inject": 48,
+    "tau": 8,
+    "K_max": 12000,
+    "n_trials": 100,
+    "q_star": 0.9,
+    "seed_base": 20260713,
+    "t0_rule": "max(1, s_inject // 4)"
+  },
+  "table_xi": [
+    {
+      "b": 8,
+      "r": 12,
+      "d": 96,
+      "overflow_rate": 0.0,
+      "k_pair_median": 555,
+      "k_pair_p95": 591,
+      "output_agreement": 0.0,
+      "deterministic_violation_count": 0
+    },
+    {
+      "b": 10,
+      "r": 10,
+      "d": 100,
+      "overflow_rate": 0.0,
+      "k_pair_median": 1897,
+      "k_pair_p95": 1984,
+      "output_agreement": 1.0,
+      "deterministic_violation_count": 0
+    },
+    {
+      "b": 12,
+      "r": 8,
+      "d": 96,
+      "overflow_rate": 0.0,
+      "k_pair_median": 8861,
+      "k_pair_p95": 8997,
+      "output_agreement": 1.0,
+      "deterministic_violation_count": 0
+    },
+    {
+      "b": 16,
+      "r": 6,
+      "d": 96,
+      "overflow_rate": 1.0,
+      "k_pair_median": 42831,
+      "k_pair_p95": 43076,
+      "output_agreement": NaN,
+      "deterministic_violation_count": 0
+    }
+  ],
+  "table_xii": [
+    {
+      "b": 8,
+      "r": 12,
+      "pair_recall": 0.6157535460992908,
+      "bench_item_recall": 0.6157535460992908,
+      "global_count_error_mean": 18.44,
+      "per_label_count_error_mean": 6.88,
+      "threshold_fn_rate": 0.0,
+      "overflow_rate": 0.0,
+      "deterministic_violation_count": 0
+    },
+    {
+      "b": 10,
+      "r": 10,
+      "pair_recall": 1.0,
+      "bench_item_recall": 1.0,
+      "global_count_error_mean": 0.0,
+      "per_label_count_error_mean": 0.0,
+      "threshold_fn_rate": 0.0,
+      "overflow_rate": 0.0,
+      "deterministic_violation_count": 0
+    },
+    {
+      "b": 12,
+      "r": 8,
+      "pair_recall": 1.0,
+      "bench_item_recall": 1.0,
+      "global_count_error_mean": 0.0,
+      "per_label_count_error_mean": 0.0,
+      "threshold_fn_rate": 0.0,
+      "overflow_rate": 0.0,
+      "deterministic_violation_count": 0
+    },
+    {
+      "b": 16,
+      "r": 6,
+      "pair_recall": NaN,
+      "bench_item_recall": NaN,
+      "global_count_error_mean": NaN,
+      "per_label_count_error_mean": NaN,
+      "threshold_fn_rate": NaN,
+      "overflow_rate": 1.0
+    }
+  ]
+}

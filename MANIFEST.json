@@ -1,0 +1,46 @@
+{
+  "README.md": {
+    "size_bytes": 3106,
+    "sha256": "023ab1010dd04e64a5b4375c107dcbb43318ca4678a0fd227928ab3169c51b63"
+  },
+  "fig1.pdf": {
+    "size_bytes": 22508,
+    "sha256": "f38eef85cb678aec25fd8c22d694d4b57d65e8a26cce2675336da940f023008b"
+  },
+  "fig2.pdf": {
+    "size_bytes": 19140,
+    "sha256": "f85c5878f22cff0a47f0791a894eaf422d938627222385059e84b08ba65239d7"
+  },
+  "fig2_data.json": {
+    "size_bytes": 1137,
+    "sha256": "f725f082e4704c83d679ec066c46fb788be84f2f7f163ce430146bd47c8676a2"
+  },
+  "make_fig1.py": {
+    "size_bytes": 3866,
+    "sha256": "ea2fd1b98da6b0b2242a4ca8bb5438ef67a1cad625495175c47ff7f8b68c12e4"
+  },
+  "make_fig2.py": {
+    "size_bytes": 12726,
+    "sha256": "ddac3339f5c283cb2d8dcd3415ca845d9dd8971e0f2c4226e187a058a91994c3"
+  },
+  "make_manifest.py": {
+    "size_bytes": 897,
+    "sha256": "ffce9224a3aed15a18c29e3a2352e28641cf0fbf3baca12c1919092f592c6ca2"
+  },
+  "per_trial.jsonl": {
+    "size_bytes": 123406,
+    "sha256": "257277f0e1041846d7da1398f582d1a7f514b0a75f28f45f170b5ce71d38a224"
+  },
+  "simulator.py": {
+    "size_bytes": 19450,
+    "sha256": "7ac86f546228eff414bc4386f9efdd13b368af63afe6817d27da8db817bc6115"
+  },
+  "summary.json": {
+    "size_bytes": 2273,
+    "sha256": "5656e07e8a8402e6094a5f838a6b6a460e5569c37474c1cd3b3fe1d64e10d3b5"
+  },
+  "verify_fig2_8_12.py": {
+    "size_bytes": 5618,
+    "sha256": "23bc83c876748af18234903a28bffe72eb77d7e277569c945ae27e3545846880"
+  }
+}

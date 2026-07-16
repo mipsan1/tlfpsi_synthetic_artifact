@@ -1,0 +1,74 @@
+[
+  {
+    "b": 12,
+    "r": 8,
+    "d": 96,
+    "n_targets": 8,
+    "T_max": 16,
+    "survival": 1.0,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 12,
+    "r": 8,
+    "d": 96,
+    "n_targets": 16,
+    "T_max": 16,
+    "survival": 1.0,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 12,
+    "r": 8,
+    "d": 96,
+    "n_targets": 32,
+    "T_max": 16,
+    "survival": 1.0,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 12,
+    "r": 8,
+    "d": 96,
+    "n_targets": 64,
+    "T_max": 16,
+    "survival": 1.0,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 8,
+    "r": 12,
+    "d": 96,
+    "n_targets": 8,
+    "T_max": 16,
+    "survival": 0.1,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 8,
+    "r": 12,
+    "d": 96,
+    "n_targets": 16,
+    "T_max": 16,
+    "survival": 0.2,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 8,
+    "r": 12,
+    "d": 96,
+    "n_targets": 32,
+    "T_max": 16,
+    "survival": 0.2,
+    "confusion_given_survival": 0.0
+  },
+  {
+    "b": 8,
+    "r": 12,
+    "d": 96,
+    "n_targets": 64,
+    "T_max": 16,
+    "survival": 0.12,
+    "confusion_given_survival": 0.0
+  }
+]
